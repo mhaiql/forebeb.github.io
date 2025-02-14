@@ -41,19 +41,22 @@ function App() {
         <div className="bg-[#EDE8DC] min-h-screen flex items-center justify-center absolute inset-0">
           {!isModalOpen &&
             (showGif ? (
-              <div className="flex flex-col items-center justify-center space-y-4">
-                <p className="font-['Oooh_Baby'] text-[#493628] text-3xl">
-                  Yay!! You're my Valentine! 💖
+              <div className="bg-[#F7CFD8] w-full h-full flex flex-col items-center justify-center space-y-4">
+                <p className="font-['Oooh_Baby'] text-[#493628] font-semibold text-center text-3xl px-4 ">
+                  Yayyyy!! You're my Valentine! 💖
                 </p>
                 <p className="font-['Oooh_Baby'] text-[#493628] text-md">
-                  See you tonight 🫶
+                  See you tonight 🫶 - Haiqal
                 </p>
                 <img
                   src="https://tenor.com/view/dudu-kissing-bubu-hearts-i-love-you-i-miss-you-dudu-gif-7350208909158435592.gif"
                   alt="Love Gif"
                   className="w-64 h-auto rounded-xl"
                 />
-                <button onClick={handleRefresh} className="flex space-x-2 px-2">
+                <button
+                  onClick={handleRefresh}
+                  className="flex space-x-2 px-2 pt-8"
+                >
                   <RedoOutlined className="translate-y-1" />
                   <p>Start over again</p>
                 </button>
