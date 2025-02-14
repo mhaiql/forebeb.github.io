@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import useScreenSize from "./helper/useScreenSize";
 import Login from "./components/Login";
 import { message } from "antd";

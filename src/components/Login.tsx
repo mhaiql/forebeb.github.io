@@ -1,7 +1,5 @@
 import * as React from "react";
 import { Modal, Form, Button, DatePicker, message } from "antd";
-import dayjs from "dayjs";
-import { div } from "framer-motion/client";
 
 interface LoginProps {
   isModalOpen: boolean;
